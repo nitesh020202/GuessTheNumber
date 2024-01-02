@@ -1,0 +1,71 @@
+html {
+    margin: 0;
+    font-family: sans-serif;
+}
+nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    border-bottom: solid 1px #aaa;
+    background-color: #eee;
+    color: #1b1b1b;
+    
+}
+body{
+    background-color: #aaa;
+}
+p{
+    color: white;
+}
+nav a {
+    display: inline-block;
+    min-width: 9rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    border: solid 1px rgb(22, 22, 22);
+    text-align: center;
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
+nav a[aria-current='page'] {
+    color: #000;
+    background-color: #d4d4d4;
+
+}
+
+.container{
+    width: 70%;
+    text-align: center;
+    height: 100%;
+    background-color: #212121;
+    margin:auto 14%;
+}
+.gamename{
+    background-color: #000;
+    color: white;
+    padding-top: 15px;
+    height: 10vh;
+}
+#input{
+    height: 50px;
+    width: 200px;
+    font-size: 40px;
+}
+.submit ,.reset{
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    background-color: #000;
+    background-origin: 2px solid black;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.RemainingChance {
+    padding-bottom: 20px;
+}
